@@ -36,3 +36,9 @@ alert( result );
     + Accompanying tests at the end user.
     + Development of technical documentation.
     + Work in the analytical laboratory.
+
+## Education
+* **Udemy**,  [WEB developer](https://www.udemy.com/course/webdeveloper/)  (*May 2022 - up to now*)
+* **NTU Kharkiv Polytechnic Institute**,  Technology of organic substances, biotechnology  (*September 2004 - February 2010*)
+
+
