@@ -41,4 +41,7 @@ alert( result );
 * **Udemy**,  [WEB developer](https://www.udemy.com/course/webdeveloper/)  (*May 2022 - up to now*)
 * **NTU Kharkiv Polytechnic Institute**,  Technology of organic substances, biotechnology  (*September 2004 - February 2010*)
 
+## English
+* [EFSet](https://www.efset.org): **Intermediate** (CEFR B1+)
+* [EPAM English test result](https://examinator.epam.com/Main/PersonalAssignments): A2 (I try to learn English in every possible way by [EnglishDom](https://www.englishdom.com/))
 
