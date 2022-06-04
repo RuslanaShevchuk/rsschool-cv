@@ -3,7 +3,7 @@
 ## Contacts
 * Phone: +38 066 507 88 19
 * E-mail: ruslanashevchuck@gmail.com
-* GitHub: ruslanashevchuk
+* GitHub: [ruslanashevchuk](https://github.com/RuslanaShevchuk)
 
 ## About Me
 I am just starting my journey in IT. Now I am actively studying HTML and CSS on my own, preparing to enter the Front-End course. I can work both independently and in a team and I want to develop professionally. looking for a job to start my career path in IT.
