@@ -17,9 +17,9 @@ html {
 body {
   font-family: "NoticiaText";
   min-height: 100vh;
+  display: flex;
   margin: 0;
   padding: 0;
-  display: flex;
   flex-direction: column;
   background-color: #f5f7fa;
 }
@@ -51,19 +51,21 @@ body {
 }
 
 .section-title {
-  color: #000000;
   font-style: normal;
-  font-weight: 700;
   font-size: 22px;
   line-height: 27px;
+  font-weight: 700;
   margin-bottom: 10px;
+  color: #000000;
 }
+
 .nav-list {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
 }
+
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
@@ -71,6 +73,7 @@ body {
   text-decoration: none;
   color: #ffffff;
 }
+
 .nav-link:hover {
   color: #fb6d3a;
 }
@@ -80,29 +83,29 @@ body {
 }
 
 .about-name {
-  color: #000000;
   font-style: normal;
-  font-weight: 700;
   font-size: 45px;
   line-height: 55px;
+  font-weight: 700;
   margin-bottom: 25px;
+  color: #000000;
 }
 
 .about-position {
-  color: #000000;
   font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 17px;
+  font-weight: 700;
   margin-bottom: 20px;
+  color: #000000;
 }
 
 .description {
-  color: #595959;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  font-weight: 400;
+  color: #595959;
 }
 
 .code {
@@ -111,49 +114,49 @@ body {
 }
 
 .work-position {
-  color: #000000;
   font-style: normal;
-  font-weight: 700;
   font-size: 20px;
   line-height: 20px;
+  font-weight: 700;
   margin-bottom: 10px;
+  color: #000000;
 }
 
 .organization {
-  color: #fb6d3a;
   font-style: normal;
-  font-weight: 700;
   font-size: 20px;
   line-height: 20px;
+  font-weight: 700;
+  color: #fb6d3a;
 }
 
 .work-line {
-  color: #000000;
   font-style: normal;
-  font-weight: 700;
   font-size: 20px;
   line-height: 20px;
-  margin-left: 10px;
+  font-weight: 700;
   margin-right: 10px;
+  margin-left: 10px;
+  color: #000000;
 }
 
 .period {
-  color: #a8a8a8;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  font-weight: 400;
   margin-bottom: 10px;
+  color: #a8a8a8;
 }
 
 .line {
-  color: #000000;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  margin-left: 10px;
+  font-weight: 400;
   margin-right: 10px;
+  margin-left: 10px;
+  color: #000000;
 }
 
 .work-list {
@@ -162,30 +165,30 @@ body {
 }
 
 .work-list-item {
-  color: #595959;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  font-weight: 400;
+  color: #595959;
 }
 
 .university,
 .courses {
-  color: #fb6d3a;
   font-style: normal;
-  font-weight: 700;
   font-size: 20px;
   line-height: 20px;
+  font-weight: 700;
   margin-bottom: 10px;
+  color: #fb6d3a;
 }
 
 .specialization {
-  color: #000000;
   font-style: normal;
-  font-weight: 700;
   font-size: 18px;
   line-height: 18px;
+  font-weight: 700;
   margin-bottom: 10px;
+  color: #000000;
 }
 
 .sidebar {
@@ -200,11 +203,11 @@ body {
 }
 
 .contacts-title {
-  color: #ffffff;
-  font-weight: 700;
   font-size: 22px;
   line-height: 27px;
+  font-weight: 700;
   margin-left: 40px;
+  color: #ffffff;
 }
 
 .contacts,
@@ -221,30 +224,30 @@ body {
 }
 
 .contacts-list-item {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
   width: 25%;
   list-style: none;
   color: #fb6d3a;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 28px;
 }
 
 .contacts-list-item-right {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
   width: 75%;
   list-style: none;
   color: #ffffff;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
 }
 
 .contact-link {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  font-weight: 400;
   transition: 0.5s;
   text-decoration: none;
   color: #ffffff;
@@ -259,13 +262,13 @@ body {
 }
 
 .skills-list {
-  color: #ffffff;
   margin-left: 15px;
+  color: #ffffff;
 }
 
 .english-list {
-  color: #ffffff;
   margin-left: 15px;
+  color: #ffffff;
 }
 
 .skill-list-item,
@@ -275,11 +278,11 @@ body {
 
 .skill-list-text,
 .english-list-text {
-  color: #ffffff;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 28px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .footer {
@@ -288,20 +291,19 @@ body {
   height: 80px;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-
-  color: white;
   margin: 0 auto;
   background-color: #1e2939;
+  color: white;
 }
 
 .footer-github {
   position: relative;
-  padding-left: 40px;
   margin-left: 80px;
-  font-size: 16px;
+  padding-left: 40px;
   font-style: normal;
-  font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
+  font-weight: 400;
   transition: 0.5s;
   text-decoration: none;
   color: #ffffff;
@@ -314,8 +316,8 @@ body {
 .footer-github::before {
   position: absolute;
   content: "";
-  left: 0;
   top: 0;
+  left: 0;
   width: 32px;
   height: 32px;
   background-image: url(assets/img/github-icon.svg);
@@ -324,12 +326,12 @@ body {
 }
 
 .footer-year {
-  justify-self: center;
   font-size: 16px;
+  justify-self: center;
 }
 
 .footer-rsschool {
-  justify-self: end;
   height: 32px;
   margin-right: 80px;
+  justify-self: end;
 }
