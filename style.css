@@ -22,19 +22,43 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #F5F7FA;
 }
 
 .header {
-  border: 1px solid red;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #1e3b68;
 }
 
 .main {
-  border: 1px solid red;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
 }
 
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
+.main-content {
+  background-color: #FFFFFF;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 105px 90px;
+}
+
+.section {
+  border-bottom: 1px solid #1e3b68;
+}
+
+.section-courses, {
+  border-bottom: 0;
+}
+
+.section-title {
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px; 
 }
 .nav-list {
   display: flex;
@@ -47,18 +71,130 @@ body {
   line-height: 50px;
   transition: 0.5s;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: #FFFFFF;
 }
 .nav-link:hover {
   color: aqua;
 }
-.pre {
-  padding: 0;
-  margin: 0;
-  font-size: 16px;
+
+.about {
+  margin-bottom: 40px;
 }
+
+.about-name {
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin-bottom: 25px;
+}
+
+.about-position {
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #595959;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
 .code {
   font-size: 16px;
+  color: #595959;
+}
+
+.work-position {
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.organization {
+  color: #FB6D3A;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.work-line {
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.period {
+  color: #A8A8A8;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.line {
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work-list-item {
+  color: #595959;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.university,
+.courses {
+  color: #FB6D3A;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.specialization {
+  color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+  background-color: #1e3b68;
+    padding-top: 40px;
+    width: 370px;
 }
 
 .profile-logo {
@@ -102,16 +238,20 @@ body {
 
 .footer {
   display: grid;
+  width: 1200px;
+  height: 80px;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  padding: 20px 60px 20px 60px;
+  
   color: white;
-  background-color: #1e232c;
+  margin: 0 auto;
+  background-color: #1e3b68;
 }
 
 .footer-github {
 position: relative;
 padding-left: 40px;
+margin-left: 80px;
 }
 
 .footer-github::before {
@@ -133,5 +273,8 @@ padding-left: 40px;
 .footer-rsschool {
 justify-self: end;
 height: 32px;
+margin-right: 80px;
 }
+
+
 

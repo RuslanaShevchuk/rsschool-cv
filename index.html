@@ -14,13 +14,13 @@
     <div class="container">
       <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
           <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
           <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
           <li class="nav-item"><a href="#experience" class="nav-link">Work Experience</a></li>
           <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
           <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
           <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
         </ul>
       </nav>
@@ -28,15 +28,17 @@
   </header>
   <!--Main-->
   <main class="main">
-    <div class="container">
       <!--Main Content-->
+      <div class="main-content">
         <section class="section" id="profile">
-          <h1>Ruslana Shevchuk</h1>
-          <h2>Front-End Developer</h2>
+          <div class="about">
+            <h1 class="about-name">Ruslana Shevchuk</h1>
+            <h2 class="about-posititon">Front-End Developer</h2>
+          </div>
         </section>
         <section class="section" id="summary">
           <h3 class="section-title">Summary</h3>
-          <p>I am just starting my journey in IT. Now I am actively studying HTML, CSS and JS basic on my own, 
+          <p class="description">I am just starting my journey in IT. Now I am actively studying HTML, CSS and JS basic on my own, 
             preparing to enter the Front-End course. I can
             work both independently and in a team and I want to develop
             professionally. looking for a job to start my career path in IT.
@@ -44,56 +46,61 @@
         </section>
         <section class="section" id="code">
           <h3 class="section-title">Code</h3>
-          <pre class="pre">
+          <p class="code">
             <code>
-            function sum(a, b) {
-              return a + b;
-            }
+            function sum(a, b) {<br>
+              return a + b;<br>
+            }<br>
               
-            let result = sum(1, 2);
+            let result = sum(1, 2);<br>
             alert( result );
             </code>
-          </pre>
+          </p>
         </section>
-        <section class="section" id="experiance">
+        <section class="section" id="experience">
           <h3 class="section-title">Work Experience</h3>
-          <h4>Content manager, administrator Procubing Lingerie</h4>
-          <p>January 2019 - up to now | Ukraine</p>
-          <ul>
-            <li>Administration of an online store based on CMS OpenCart.</li>
-            <li>Creating photos and descriptions of goods, filling out a product
+          <h4 class="work-position">Content manager, administrator
+            <span class="work-line">|</span>
+            <span class="organization">Procubing Lingerie</span></h4>
+          <p class="period">January 2019 - up to now<span class="line">|</span>Ukraine</p>
+          <ul class="work-list">
+            <li class="work-list-item">Administration of an online store based on CMS OpenCart.</li>
+            <li class="work-list-item">Creating photos and descriptions of goods, filling out a product
               card, creating categories, subcategories, options,
               characteristics, filters.</li>
-            <li>Processing and sending orders.</li>
+            <li class="work-list-item">Processing and sending orders.</li>
           </ul>
-          <h4>Assistant Chief Chemist SPE "Lux-X" (LLC)</h4>
-          <p>June 2010 - July 2020 | Ukraine</p>
-          <ul>
-            <li>Development and introduction into production of new types of
+          <h4 class="work-position">Assistant Chief Chemist
+            <span class="work-line">|</span>
+            <span class="organization">SPE "Lux-X" (LLC)</span></h4>
+          <p class="period">June 2010 - July 2020<span class="line">|</span>Ukraine</p>
+          <ul class="work-list">
+            <li class="work-list-item">Development and introduction into production of new types of
               adhesives and functional additives.</li>
-            <li>Refinement and improvement of existing recipes.</li>
-            <li>Patent search, introduction of foreign innovations.</li>
-            <li>Accompanying tests at the end user.</li>
-            <li>Development of technical documentation.</li>
-            <li>Work in the analytical laboratory.</li>
+            <li class="work-list-item">Refinement and improvement of existing recipes.</li>
+            <li class="work-list-item">Patent search, introduction of foreign innovations.</li>
+            <li class="work-list-item">Accompanying tests at the end user.</li>
+            <li class="work-list-item">Development of technical documentation.</li>
+            <li class="work-list-item">Work in the analytical laboratory.</li>
           </ul>
         </section>
         <section class="section" id="education">
           <h3 class="section-title">Education</h3>
-          <h4>NTU Kharkiv Polytechnic Institute</h4>
-          <h4>Technology of organic substances, biotechnology</h4>
-          <p>September 2004 - February 2010 | Ukraine</p>
+          <h4 class="university">NTU Kharkiv Polytechnic Institute</h4>
+          <h4 class="specialization">Technology of organic substances, biotechnology</h4>
+          <p class="period">September 2004 - February 2010<span class="line">|</span>Ukraine</p>
         </section>
-        <section class="section" id="courses">
+        <section class="section-courses" id="courses">
           <h3 class="section-title">Courses</h3>
-          <h4>Udemy</h4>
-          <h4>WEB developer</h4>
-          <p>May 2022 - up to now | Ukraine</p>
+          <h4 class="courses">Udemy</h4>
+          <h4 class="specialization">WEB developer</h4>
+          <p class="period">May 2022 - up to now<span class="line">|</span>Ukraine</p>
         </section>
+      </div>
         <!--Sidebar-->
-        <aside>
+        <aside class="sidebar">
           <img src="assets/img/photo.JPG" alt="profile photo" class="profile-logo">
-          <section class="section" id="contacts">
+          <section id="contacts">
             <h3 class="section-title">Contacts</h3>
             <ul class="contacts-list">
               <li class="list-item">Tel:
@@ -108,7 +115,7 @@
                 Ukraine, Kharkiv</li>
               </ul>
           </section>
-          <section class="section" id="skills">
+          <section id="skills">
             <h3 class="section-title">Skills</h3>
             <ul>
               <li>HTML5</li>
@@ -117,7 +124,7 @@
               <li>JavaScript (Basic)</li>
             </ul>
           </section>
-          <section class="section" id="english">
+          <section id="english">
             <h3 class="section-title">English</h3>
             <ul>
               <li>EFSet: Intermediate (CEFR B1+)
@@ -127,8 +134,6 @@
             </ul>
           </section>
         </aside>
-        
-    </div>
   </main>      
   <!--Footer-->
   <footer class="footer">
