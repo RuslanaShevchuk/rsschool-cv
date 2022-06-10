@@ -21,14 +21,13 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 
 .header {
   width: 1200px;
   margin: 0 auto;
-  background-color: #1e3b68;
+  background-color: #1e2939;
 }
 
 .main {
@@ -39,16 +38,15 @@ body {
 }
 
 .main-content {
-  background-color: #FFFFFF;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
   padding: 105px 90px;
 }
 
 .section {
-  border-bottom: 1px solid #1e3b68;
+  border-bottom: 1px solid #1e2939;
 }
 
-.section-courses, {
+.section-courses {
   border-bottom: 0;
 }
 
@@ -58,11 +56,11 @@ body {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
@@ -71,10 +69,10 @@ body {
   line-height: 50px;
   transition: 0.5s;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .nav-link:hover {
-  color: aqua;
+  color: #fb6d3a;
 }
 
 .about {
@@ -107,7 +105,6 @@ body {
   line-height: 24px;
 }
 
-
 .code {
   font-size: 16px;
   color: #595959;
@@ -123,7 +120,7 @@ body {
 }
 
 .organization {
-  color: #FB6D3A;
+  color: #fb6d3a;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -141,7 +138,7 @@ body {
 }
 
 .period {
-  color: #A8A8A8;
+  color: #a8a8a8;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -174,7 +171,7 @@ body {
 
 .university,
 .courses {
-  color: #FB6D3A;
+  color: #fb6d3a;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -184,56 +181,105 @@ body {
 
 .specialization {
   color: #000000;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 18px;
-    margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 10px;
 }
 
 .sidebar {
-  background-color: #1e3b68;
-    padding-top: 40px;
-    width: 370px;
+  background-color: #1e2939;
+  width: 400px;
 }
 
 .profile-logo {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  filter: grayscale(0.2) brightness(1.05);
-  transition: 0.3s;
 }
 
-.contact-list {
-}
-
-.list-item {
-  list-style: none;
-}
-
-.contact-type {
-  color: black;
-  font-style: normal;
+.contacts-title {
+  color: #ffffff;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  margin-right: 20px;
+  font-size: 22px;
+  line-height: 27px;
+  margin-left: 40px;
+}
+
+.contacts,
+.skills-list,
+.english-list {
+  margin-left: 40px;
+}
+
+.contacts-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.contacts-list-item {
+  width: 25%;
+  list-style: none;
+  color: #fb6d3a;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.contacts-list-item-right {
+  width: 75%;
+  list-style: none;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 .contact-link {
-  color: black;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  opacity: 0.5;
+  transition: 0.5s;
+  text-decoration: none;
+  color: #ffffff;
 }
 
-.english-linc {
+.contact-link:hover {
+  color: #fb6d3a;
+}
 
+.location {
+  color: #ffffff;
+}
+
+.skills-list {
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.english-list {
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.skill-list-item,
+.english-list-item {
+  color: #fb6d3a;
+}
+
+.skill-list-text,
+.english-list-text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 .footer {
@@ -242,16 +288,27 @@ body {
   height: 80px;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  
+
   color: white;
   margin: 0 auto;
-  background-color: #1e3b68;
+  background-color: #1e2939;
 }
 
 .footer-github {
-position: relative;
-padding-left: 40px;
-margin-left: 80px;
+  position: relative;
+  padding-left: 40px;
+  margin-left: 80px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  transition: 0.5s;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-github:hover {
+  color: #fb6d3a;
 }
 
 .footer-github::before {
@@ -268,13 +325,11 @@ margin-left: 80px;
 
 .footer-year {
   justify-self: center;
+  font-size: 16px;
 }
 
 .footer-rsschool {
-justify-self: end;
-height: 32px;
-margin-right: 80px;
+  justify-self: end;
+  height: 32px;
+  margin-right: 80px;
 }
-
-
-
