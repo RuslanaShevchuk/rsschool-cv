@@ -108,6 +108,41 @@ body {
   color: #595959;
 }
 
+.projects-list {
+  margin-left: 15px;
+  padding: 0;
+}
+
+.projects-item {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.project,
+.project-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #595959;
+}
+
+.project-link {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.project-bracket {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
 .code {
   font-size: 16px;
   color: #595959;
