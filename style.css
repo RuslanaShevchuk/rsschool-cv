@@ -1,4 +1,373 @@
+@font-face {
+  font-family: "NoticiaText";
+  src: url(assets/fonts/Noticia_Text/NoticiaText-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "NoticiaText";
+  src: url(assets/fonts/Noticia_Text/NoticiaText-Regular.ttf);
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F5F7FA;
+  font-family: "NoticiaText";
+  min-height: 100vh;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  background-color: #f5f7fa;
+}
+
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #1e2939;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-content {
+  background-color: #ffffff;
+  padding: 105px 90px;
+}
+
+.section {
+  border-bottom: 1px solid #1e2939;
+}
+
+.section-courses {
+  border-bottom: 0;
+}
+
+.section-title {
+  font-style: normal;
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.5s;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #fb6d3a;
+}
+
+.about {
+  margin-bottom: 40px;
+}
+
+.about-name {
+  font-style: normal;
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.about-position {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.description {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #595959;
+}
+
+.projects-list {
+  margin-left: 15px;
+  padding: 0;
+}
+
+.projects-item {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.project,
+.project-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #595959;
+}
+
+.project-link {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.project-bracket {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.code {
+  font-size: 16px;
+  color: #595959;
+}
+
+.work-position {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.organization {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #fb6d3a;
+}
+
+.work-line {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #000000;
+}
+
+.period {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #a8a8a8;
+}
+
+.line {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #000000;
+}
+
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work-list-item {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #595959;
+}
+
+.university,
+.courses {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fb6d3a;
+}
+
+.specialization {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.sidebar {
+  background-color: #1e2939;
+  width: 400px;
+}
+
+.profile-logo {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.contacts-title {
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 700;
+  margin-left: 40px;
+  color: #ffffff;
+}
+
+.contacts,
+.skills-list,
+.english-list {
+  margin-left: 40px;
+}
+
+.contacts-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.contacts-list-item {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  width: 25%;
+  list-style: none;
+  color: #fb6d3a;
+}
+
+.contacts-list-item-right {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  width: 75%;
+  list-style: none;
+  color: #ffffff;
+}
+
+.contact-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  transition: 0.5s;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contact-link:hover {
+  color: #fb6d3a;
+}
+
+.location {
+  color: #ffffff;
+}
+
+.skills-list {
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+.english-list {
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+.skill-list-item,
+.english-list-item {
+  color: #fb6d3a;
+}
+
+.skill-list-text,
+.english-list-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer {
+  display: grid;
+  width: 1200px;
+  height: 80px;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #1e2939;
+  color: white;
+}
+
+.footer-github {
+  position: relative;
+  margin-left: 80px;
+  padding-left: 40px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  transition: 0.5s;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-github:hover {
+  color: #fb6d3a;
+}
+
+.footer-github::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  background-image: url(assets/img/github-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.footer-year {
+  font-size: 16px;
+  justify-self: center;
+  font-size: 16px;
+}
+
+.footer-rsschool {
+  height: 32px;
+  margin-right: 80px;
+  justify-self: end;
 }
